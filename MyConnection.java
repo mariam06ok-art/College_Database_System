@@ -13,8 +13,8 @@ public class MyConnection {
         try {
             
             String url = "jdbc:sqlserver://localhost:1433;databaseName=College;encrypt=false;trustServerCertificate=true";
-            String username = "collage";
-            String password = "12345";
+            String username = "*****";
+            String password = "******";
             con = DriverManager.getConnection(url, username, password);
             System.out.println("CONNECTED SUCCESSFULLY");
         } catch (Exception e) {
